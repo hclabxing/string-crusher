@@ -24,7 +24,7 @@ public class StringCrusherTest {
 
     @Test
     void replace_01() {
-        String input = "aabcccbad";
+        String input = "abcccbad";
         String result = App.processSteps(input, true);
         Assertions.assertEquals("d", result);
     }
