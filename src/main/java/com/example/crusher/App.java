@@ -13,7 +13,7 @@ public class App {
         processSteps(input1,false);
 
         System.out.println();
-        var input2 = "aabcccbad";
+        var input2 = "abcccbad";
         if (!isValidInput(input2)) {
             System.out.println("仅允许小写 a-z 字符");
             return;
