@@ -15,8 +15,3 @@ mvn -q -DskipTests package
 ```bash
 java -jar target/string-crusher-1.0.0.jar
 ```
-
-### 示例
-
-- 输入：`aabcccbbad`，模式：remove → 输出：`d`
-- 输入：`abcccbad`，模式：replace → 输出：`d`
